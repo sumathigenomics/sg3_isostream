@@ -6,9 +6,9 @@
 ---
 
 ## 1. Introduction
-The landscape of transcriptomics is shifting from gene-level quantification to isoform-level resolution. Traditional short-read RNAseq excels at counting total gene expression but often fails to resolve complex alternative splicing events. SingleCell Long-Read (SCLR) sequencing—powered by Oxford Nanopore (ONT) and PacBio—offers the potential to sequence full-length transcripts.
+The landscape of transcriptomics is shifting from gene-level quantification to isoform-level resolution. Traditional short-read RNAseq excels at counting total gene expression but often fails to resolve complex alternative splicing events. SingleCell Long-Read (SCLR) sequencing powered by Oxford Nanopore (ONT) and PacBio—offers the potential to sequence full-length transcripts.
 
-However, SCLR data introduces unique computational challenges, primarily **high indel rates** and **significant transcript truncation**. **SG3_Isostream** is a Python-native suite designed to rescue these truncated reads using a "Fuzzy-Boundary" recovery algorithm, enabling accurate isoform-level discovery within the `Scanpy` ecosystem.
+However, SCLR data introduces unique computational challenges, primarily **high indel rates** and **significant transcript truncation**. **SG3_Isostream** is a Python native suite designed to rescue these truncated reads using a "Fuzzy-Boundary" recovery algorithm, enabling accurate isoform-level discovery within the `Scanpy` ecosystem.
 
 ## 2. Core Innovations
 
